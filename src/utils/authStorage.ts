@@ -22,7 +22,7 @@ export function getPersistedBearerToken(): string {
 
 /**
  * `uni.uploadFile` 不走 Alova，需手动带 JWT。
- * 与 `POST /api/upload/abnormalMedia` 一致：`Authorization: Bearer <token>`
+ * 与 `POST .../uploadImage`、`POST .../uploadAbnormalMedia`（相对 `VITE_API_BASE_URL`，一般为 `/api` 根下）一致：`Authorization: Bearer <token>`
  */
 export function getMultipartUploadAuthHeaders(): Record<string, string> {
   const bearer = getPersistedBearerToken()

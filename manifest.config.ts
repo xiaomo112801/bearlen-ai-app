@@ -29,8 +29,9 @@ export default defineManifestConfig({
     },
     /* 模块配置 */
     modules: {
-      Barcode : {},
-      Camera : {}
+      VideoPlayer: {},
+      Barcode: {},
+      Camera: {},
     },
     /* 应用发布信息 */
     distribute: {
