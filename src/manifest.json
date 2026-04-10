@@ -1,5 +1,5 @@
 {
-  "name": "wot-starter",
+  "name": "灵犀",
   "appid": "__UNI__FB7AB88",
   "description": "",
   "versionName": "1.0.1",
@@ -41,7 +41,15 @@
         ]
       },
       "ios": {},
-      "sdkConfigs": {}
+      "sdkConfigs": {},
+      "icons": {
+        "android": {
+          "hdpi": "unpackage/res/icons/72x72.png",
+          "xhdpi": "unpackage/res/icons/96x96.png",
+          "xxhdpi": "unpackage/res/icons/144x144.png",
+          "xxxhdpi": "unpackage/res/icons/192x192.png"
+        }
+      }
     }
   },
   "app-harmony": {

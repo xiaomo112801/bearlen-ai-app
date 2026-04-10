@@ -10,7 +10,7 @@
 import { defineManifestConfig } from '@uni-helper/vite-plugin-uni-manifest'
 
 export default defineManifestConfig({
-  'name': 'wot-starter',
+  'name': '灵犀',
   'appid': '__UNI__FB7AB88',
   'description': '',
   'versionName': '1.0.1',
@@ -59,6 +59,15 @@ export default defineManifestConfig({
       ios: {},
       /* SDK配置 */
       sdkConfigs: {},
+      icons : {
+          android : {
+              hdpi : "unpackage/res/icons/72x72.png",
+              xhdpi : "unpackage/res/icons/96x96.png",
+              xxhdpi : "unpackage/res/icons/144x144.png",
+              xxxhdpi : "unpackage/res/icons/192x192.png"
+          },
+
+      }
     },
   },
   /* 快应用特有相关 */
